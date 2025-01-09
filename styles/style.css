@@ -55,3 +55,43 @@ font-size: 12px;
 font-weight: 400;
 text-align: right;
 }
+
+/* failure style */
+
+.failure-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.failure-content{
+    width: 320px;
+    height: auto;
+}
+.failure-img img{
+    width: 350px;
+    height: auto;
+}
+
+.failure-title{
+    color: rgb(21, 20, 20);
+font-family: Work Sans;
+font-size: 36px;
+font-weight: 650;
+text-align: left;
+margin-bottom: 22px;
+
+}
+.failure-paragraph{
+    color: rgb(68, 67, 67);
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 22px;
+}
+
+
+
+ol li{
+    list-style: inside;
+}
