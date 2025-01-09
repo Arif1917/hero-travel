@@ -19,6 +19,10 @@ margin-top: 13px;
 }
 
 
+section{
+    margin-bottom: 50px;
+}
+
  /* banner related style */
 #banner-bg{
  background: url('../images/banner/banner2.png');
@@ -73,7 +77,7 @@ text-align: right;
     height: auto;
 }
 
-.failure-title{
+.failure-title , title{
     color: rgb(21, 20, 20);
 font-family: Work Sans;
 font-size: 36px;
@@ -94,4 +98,60 @@ margin-bottom: 22px;
 
 ol li{
     list-style: inside;
+}
+
+
+
+/* plans related style */
+
+.title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+/* background section */
+
+#background-pic{
+     background:url('../images/watch.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 900px;
+     height: auto;
+     margin: 0 auto;
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     background: 
+}
+
+.bg-content{
+    padding: 40px 60px;
+    height: 150px;
+
+}
+
+.button-white{
+    border-radius: 5px;
+    color: rgb(241, 91, 34);
+font-size: 17px;
+font-weight: 500;
+text-align: left;
+background: rgb(255, 255, 255);
+border: none;
+padding: 12px 18px;
+margin-top: 16px;
+}
+
+.content-title{
+    color: rgb(255, 255, 255);
+font-size: 36px;
+font-weight: 700;
+text-align: left;
 }
