@@ -1,0 +1,57 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+/* common style */
+
+.btn-style{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 500;
+text-align: right;
+border-radius: 5px;
+padding: 8px 12px;
+background: rgb(241, 91, 34);
+outline: none;
+border: none;
+margin-top: 13px;
+}
+
+
+ /* banner related style */
+#banner-bg{
+ background: url('../images/banner/banner2.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ width: 1280px;
+ height: 500px;
+ display: flex;
+justify-content: end;
+align-items: center;
+
+}
+
+.banner{
+    width: 490px;
+    text-align: right;
+    padding: 180px 80px;
+    
+    
+}
+
+.banner-title{
+    color: rgb(21, 20, 20);
+font-size: 45px;
+font-weight: 630;
+text-align: right;
+margin-bottom: 12px;
+}
+
+.banner-paragraph{
+    color: rgb(68, 67, 67);
+font-size: 12px;
+font-weight: 400;
+text-align: right;
+}
